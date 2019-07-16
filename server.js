@@ -39,6 +39,7 @@ require('./app/routes/user')(app);
 require('./app/routes/chat')(app);
 require('./app/routes/message')(app);
 require('./app/routes/womenClothes')(app);
+require('./app/routes/agreements')(app);
 
 // listen for requests
 app.listen(3000, () => {

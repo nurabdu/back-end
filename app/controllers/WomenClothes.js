@@ -49,7 +49,7 @@ products.save().then(data => {
 exports.get_womenClothes = (req, res) => {
     WomenClothes.find().exec(function(err, womenClothes){
         if (womenClothes.length) {
-            womenClothes = womenClothes.map((womenClothes) => {
+            womenClothes = womenClothes.map((clothes) => {
                 return {
                     category:          clothes.category || '',
                     product:          clothes.product || '',  

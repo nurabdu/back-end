@@ -10,7 +10,7 @@ module.exports = (app) => {
      /**
      *Get Clothig
      */
-    app.get('/WomenClothes/get:id?', womenClothes.get_womenClothes);
+    app.get('/womenClothes/get:id?', womenClothes.get_womenClothes);
      /**
      * Descriptions post
      */
